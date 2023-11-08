@@ -1,10 +1,11 @@
-package Work4_1;
+package Work4;
 
-public static void main(String[]args){
-        int number = 10;
-        String convertNumber = Convertnumber.
-        }
 public class Work4_1 {
+    public static void main(String[] args) {
+        int number = 5;
+        String convertedNumber = Work4_1.convertNumber(number);
+        System.out.println(convertedNumber);
+    }
     public static String convertNumber (int number) {
         String result;
         {
